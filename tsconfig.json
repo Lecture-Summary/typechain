@@ -4,6 +4,7 @@
     "outDir": "build", // build 되는 결과물이 담길 폴더
     "target": "ES6", // build 되는 Javascript의 버전
     "lib": ["ES6", "DOM"], // Javascript 코드가 어떤 환경에서 동작될지 정의
-    "strict": true
+    "strict": true,
+    "allowJs": true
   }
 }

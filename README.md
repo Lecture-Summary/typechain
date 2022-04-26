@@ -2,6 +2,10 @@
 
 [노마드코더 Typescript 강의 🚀](https://nomadcoders.co/typescript-for-beginners)
 
+## Table of Contents
+- [tsconfig.json](https://github.com/Lecture-Summary/typechain#tsconfig.json)
+- [Declaration Files](https://github.com/Lecture-Summary/typechain#Declaration-Files)
+
 ## tsconfig.json
 
 ```json
@@ -58,3 +62,5 @@ declare module 'myPackage' {
 }
 ```
 `{패키지명}.d.ts` 파일을 작성한 후 js 파일에 있는 함수들의 타입을 정의해준다면 에러가 사라지며 자동완성 기능을 제공한다.
+
+## JSDoc
