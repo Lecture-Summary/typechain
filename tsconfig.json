@@ -1,0 +1,7 @@
+{
+  "include": ["src"], // typescript 소스가 작성되는 경로
+  "compilerOptions": {
+    "outDir": "build", // build 되는 결과물이 담길 폴더
+    "target": "ES6" // build 되는 Javascript의 버전
+  }
+}
