@@ -3,9 +3,10 @@
 [노마드코더 Typescript 강의 🚀](https://nomadcoders.co/typescript-for-beginners)
 
 ## 📝 Table of Contents
-- [tsconfig.json](https://github.com/Lecture-Summary/typechain#tsconfig.json)
-- [Declaration Files](https://github.com/Lecture-Summary/typechain#Declaration-Files)
-- [JSDoc](https://github.com/Lecture-Summary/typechain#JSDoc)
+- [tsconfig.json](https://github.com/Lecture-Summary/typechain#tsconfigjson)
+- [Declaration Files](https://github.com/Lecture-Summary/typechain#declaration-files)
+- [JSDoc](https://github.com/Lecture-Summary/typechain#jsdoc)
+- [ts-node](https://github.com/Lecture-Summary/typechain#ts-node)
 
 ---
 
@@ -130,3 +131,7 @@ param에서 함수의 매개변수를 returns에서 return 타입을 설정해�
 
 ## ts-node
 ts-node는 typescript 코드를 build하고 start할 필요 없이 실행시켜준다.
+
+
+## DefinitelyTyped
+https://github.com/DefinitelyTyped/DefinitelyTyped
