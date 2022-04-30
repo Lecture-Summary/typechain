@@ -9,6 +9,7 @@
 - [🎬 ts-node](#tsnode)
 - [🫙 DefinitelyTyped](#definitely-typed)
 - [📔 Typescript Handbook](#typescript-handbook)
+- [🏭 Reference](#reference)
 
 ---
 
@@ -168,7 +169,8 @@ Typescript에 대해 더 배우고 싶다면 [Typescript Handbook🚀](https://w
 
 ---
 
-## Reference
+## <a name="reference"></a>🏭 Reference
 
 https://nomadcoders.co/typescript-for-beginners
+
 https://sddev.tistory.com/91
