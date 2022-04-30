@@ -3,14 +3,16 @@
 [노마드코더 Typescript 강의 🚀](https://nomadcoders.co/typescript-for-beginners)
 
 ## 📝 Table of Contents
-- [tsconfig.json](https://github.com/Lecture-Summary/typechain#tsconfigjson)
-- [Declaration Files](https://github.com/Lecture-Summary/typechain#declaration-files)
-- [JSDoc](https://github.com/Lecture-Summary/typechain#jsdoc)
-- [ts-node](https://github.com/Lecture-Summary/typechain#ts-node)
+- [🌅 tsconfig.json](#tsconfig)
+- [🧾 Declaration Files](#declaration-file)
+- [📜 JSDoc](#jsdoc)
+- [🎬 ts-node](#tsnode)
+- [🫙 DefinitelyTyped](#definitely-typed)
+- [📔 Typescript Handbook](#typescript-handbook)
 
 ---
 
-## tsconfig.json
+## <a name="tsconfig"></a>🌅 tsconfig.json
 
 [tsconfig 공식문서 🚀](https://www.typescriptlang.org/tsconfig)
 
@@ -32,7 +34,7 @@ lib 은 Javascript 코드가 어떤 환경에서 동작될지를 정의한다.
 
 ---
 
-## Declaration Files
+## <a name="declaration-file"></a>🧾 Declaration Files
 
 npm으로 설치한 node_modules에 존재하는 Javascript 파일에 대한 type 정의 방법
 
@@ -72,7 +74,7 @@ declare module 'myPackage' {
 
 ---
 
-## JSDoc
+## <a name="jsdoc"></a>📜 JSDoc
 
 JSDoc은 기존 프로젝트에 존재하는 Javascript 파일들과 Typescript를 결합하기 위해 이용한다.
 
@@ -129,9 +131,20 @@ myPackage.js 파일에는 함수 상단에 `// @ts-check`라고 표시해주고 
 param에서 함수의 매개변수를 returns에서 return 타입을 설정해준다.
 이렇게 설정을 해주면 index.ts 파일에는 init과 exit 함수의 타입을 js파일의 변경 없이 자동완성이 뜨게된다.
 
-## ts-node
+---
+
+## <a name="tsnode"></a>🎬 ts-node
 ts-node는 typescript 코드를 build하고 start할 필요 없이 실행시켜준다.
 
+---
 
-## DefinitelyTyped
-https://github.com/DefinitelyTyped/DefinitelyTyped
+## <a name="definitely-typed"></a>🫙 DefinitelyTyped
+[DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped)
+Typescript 유형 정의를 위한 저장소이다.
+`npm install --save-dev @types/node` 를 이용해 typescript 타입을 불러 올 때 이 저장소에서 불러오게 된다.
+type이 정의되지 않은 패키지에 type 정의를 기여하고 싶다면 이 저장소에 Pull Request를 하여 기여할 수 있다.
+
+---
+
+## <a name="typescript-handbook"></a>📔 Typescript Handbook
+Typescript에 대해 더 배우고 싶다면 [Typescript Handbook🚀](https://www.typescriptlang.org/docs/handbook/intro.html)
