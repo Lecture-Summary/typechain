@@ -30,6 +30,7 @@
 ```
 
 lib 은 Javascript 코드가 어떤 환경에서 동작될지를 정의한다.
+
 만약 `DOM`을 넣어주게되면 typescript는 DOM 환경에서 제공되는 `document.`, `window.` 또는 `localStorage.`등을 입력하였을 때 브라우저 환경에서 지원되는 자동완성 목록을 제공해준다.
 
 ---
@@ -127,24 +128,47 @@ export function exit(code) {
 
 ```
 myPackage.js 파일에는 함수 상단에 `// @ts-check`라고 표시해주고 주석을 작성한다.
+
 `/**` 여기까지만 작성해도 vscode에서 자동완성으로 나머지 코드들을 완성해준다.
+
 param에서 함수의 매개변수를 returns에서 return 타입을 설정해준다.
+
 이렇게 설정을 해주면 index.ts 파일에는 init과 exit 함수의 타입을 js파일의 변경 없이 자동완성이 뜨게된다.
+
 
 ---
 
 ## <a name="tsnode"></a>🎬 ts-node
+[npm ts-node](https://www.npmjs.com/package/ts-node)
+
+typescript로 작성된 파일을 실행하려면 js로 build를 한 후 `node index.js`와 같이 실행시켜야 테스트를 할 수 있다.
+
+그러나 ts-node 라이브러리를 사용하면 build를 하지 않고 직접 TypeScript를 실행시켜주는 역할을 한다.
+
+`ts-node index.ts` 이런식으로 바로 typescript 파일을 실행할 수 있다.
+
 ts-node는 typescript 코드를 build하고 start할 필요 없이 실행시켜준다.
 
 ---
 
 ## <a name="definitely-typed"></a>🫙 DefinitelyTyped
 [DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped)
+
 Typescript 유형 정의를 위한 저장소이다.
+
 `npm install --save-dev @types/node` 를 이용해 typescript 타입을 불러 올 때 이 저장소에서 불러오게 된다.
+
 type이 정의되지 않은 패키지에 type 정의를 기여하고 싶다면 이 저장소에 Pull Request를 하여 기여할 수 있다.
 
 ---
 
 ## <a name="typescript-handbook"></a>📔 Typescript Handbook
+
 Typescript에 대해 더 배우고 싶다면 [Typescript Handbook🚀](https://www.typescriptlang.org/docs/handbook/intro.html)
+
+---
+
+## Reference
+
+https://nomadcoders.co/typescript-for-beginners
+https://sddev.tistory.com/91
